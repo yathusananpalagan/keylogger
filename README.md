@@ -17,6 +17,14 @@
 ## 🛠️ Tools & Technologies
 [![Technologies](https://skillicons.dev/icons?i=git,github,vscode,py,md,windows)](https://skillicons.dev)
 ## 📂 Project Structure
+Here are some important files in the project structure:
+
+- [**keylogger.py**](./keylogger.py): The main Python script that runs the keylogger.
+- [**requirements.txt**](./requirements.txt): Contains a list of required Python libraries (e.g., pynput) to run the project.
+- [**README.md**](./README.md): The documentation file you're currently reading, which explains the project and how to use it.
+- [**out/**](./out): Directory where the keystroke logs are saved.
+- [**out/keylog.text**](./out/keylog.text): The file where logged keystrokes are stored (may be hidden depending on the OS).
+
 ## 🔧 Installation
 ### 📝 Things Needed:
 Before you begin, make sure you have the following installed on your system:
