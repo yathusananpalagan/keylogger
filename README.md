@@ -58,7 +58,9 @@ To stop the keylogger, simply press the **Escape (Esc)** key on your keyboard. T
 4. **View the Log**
 Open the [`keylog.text`](./out/keylog.text)(or hidden log file) to see the captured keystrokes along with their timestamps. The log will contain both regular characters and special keys like **Enter, Space, Shift, Ctrl**, and more.
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
+### Log File Output
+![LogFile](./docs/logfile.png)
 
 ## ⚠️ Disclaimer
 
