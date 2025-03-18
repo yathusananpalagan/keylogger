@@ -9,7 +9,7 @@
 - 🎯 **Special Key Handling**: Detects and logs special keys like Enter, Backspace, Space, Shift, Ctrl, Alt, Tab, Delete, and Lock keys with clear labels.
 - 🛑 **Escape Key to Stop Logging**q: Stops the keylogger immediately when the Escape (Esc) key is pressed.
 - 🔄 **Key Holding/Press Filtering**: Prevents duplicate logging of continuously held special keys by tracking pressed keys.
-- 📁 **Log File Creation**: Automatically creates an output folder and generates a log file named `keylog.text` to store recorded keystrokes.
+- 📁 **Log File Creation**: Automatically creates an output folder and generates a log file named [`keylog.text`](./out/keylog.text) to store recorded keystrokes.
 - 💻 **Platform Detection**: Detects the operating system (Windows, macOS, or Linux) and adjusts behavior accordingly for file hiding.
 - 🖥️ **Cross-Platform File Hiding**: Hides the log file on Windows using the `attrib +h` command and on macOS/Linux by renaming the file with a dot prefix.
 - 🕶️ **Non-Blocking Listener**: Runs in the background using pynput's Listener without interrupting normal system operation.
@@ -45,18 +45,18 @@ Before you begin, make sure you have the following installed on your system:
    
 ## ▶️ Usage
 1. **Start the Keylogger**  
-   Navigate to the project directory (if not already there) and run the `keylogger.py` script:
+   Navigate to the project directory (if not already there) and run the [`keylogger.py`](./keylogger.py) script:
    ```bash
    python keylogger.py
    ```
 2. **Log Output**
-The keylogger will create a file named `keylog.text` (or a hidden file on macOS/Linux) in the `out/` directory. This file contains all captured keystrokes, timestamped for tracking when each key was pressed.
+The keylogger will create a file named [`keylog.text`](./out/keylog.text) (or a hidden file on macOS/Linux) in the [`out/`](./out) directory. This file contains all captured keystrokes, timestamped for tracking when each key was pressed.
 
 3. **Stopping the Keylogger**
 To stop the keylogger, simply press the **Escape (Esc)** key on your keyboard. This will terminate the keylogger's process.
 
 4. **View the Log**
-Open the `keylog.text`(or hidden log file) to see the captured keystrokes along with their timestamps. The log will contain both regular characters and special keys like **Enter, Space, Shift, Ctrl**, and more.
+Open the [`keylog.text`](./out/keylog.text)(or hidden log file) to see the captured keystrokes along with their timestamps. The log will contain both regular characters and special keys like **Enter, Space, Shift, Ctrl**, and more.
 
 ## 🖼️ Screenshots
 
@@ -82,8 +82,8 @@ Contributions are always welcome! If you'd like to contribute to this project, f
 
 If you have any questions, feedback, or suggestions, feel free to reach out to me:
 
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile)
+- **GitHub**: [@YathusanAnpalagan](https://github.com/yathusananpalagan)
+- **LinkedIn**: [@YathusanAnpalagan](https://www.linkedin.com/in/yathusan-anpalagan-805957353/)
 
 I'm happy to help and would love to hear your thoughts! 😊
 
