@@ -37,7 +37,7 @@ Before you begin, make sure you have the following installed on your system:
    First, clone the repository using Git. Open your terminal or command prompt and run the following command:
    
    ```bash
-   git clone https://github.com/your-username/keylogger.git
+   git clone https://github.com/yathusananpalagan/keylogger.git
    ```
 2. **Navigate to the Project Folder**
    Once the repository is cloned, navigate to the project directory:
