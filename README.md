@@ -109,4 +109,4 @@ This project utilizes the following Python libraries:
 - **pynput**: A library to monitor and control input devices (keyboard and mouse).
 - **platform**: Provides a portable way to access the underlying platform's data.
 - **os**: Used for interacting with the operating system, such as file management.
-- **time**: Used for getting timestamps to log keystrokes with the exact time they occurr
+- **time**: Used for getting timestamps to log keystrokes with the exact time they occur
